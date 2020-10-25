@@ -1,3 +1,4 @@
+/*
 #include<stdio.h>
 int number =8;
 int sorted[8];
@@ -56,7 +57,7 @@ void mergeSort(int a[],int m,int n){
 
 
 int main(void){
-	int array[number] = {1,3,4,5,6,7,2,8};
+	 int array[number] = {1,3,4,5,6,7,2,8};
 	mergeSort(array,0,number-1);
 	
 	for(int i=0;i<number;i++){
@@ -65,3 +66,4 @@ int main(void){
 	
 	return 0;
 }
+*/
