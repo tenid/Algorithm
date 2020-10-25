@@ -1,3 +1,4 @@
+/*
 #include<iostream>
 using namespace std;
 
@@ -45,8 +46,9 @@ int main(void){
 		
 	}
 	for(int i=0;i<number;i++){
-		cout<<heap[i]<<" ";
+ß		cout<<heap[i]<<" ";
 	}
 	
 	
 }
+*/
