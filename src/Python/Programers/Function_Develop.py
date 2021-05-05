@@ -5,7 +5,7 @@ def solution(progresses, speeds):
 
     # 기능 리스트에 비어질 때까지
     while len(progresses) > 0:
-        # 첫번째 기능의 작업 진도가 100이상일 때까지 반복
+        # 첫번째 기능의 작업 진도가 100이상일 경우
         # progresses 리스트에서 제거, speeds 리스트에서 제거
         # count 1증가
         if (progresses[0] + day * speeds[0]) >= 100:
